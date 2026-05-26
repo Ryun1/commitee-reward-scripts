@@ -212,6 +212,12 @@ def main():
         for addr in sorted(extra_outputs):
             for a in extra_outputs[addr]:
                 print(f"  {addr} = {fmt_ada(a)}")
+        if not change_address and len(extra_outputs) == 1:
+            only_addr = next(iter(extra_outputs))
+            print(
+                f"\n  Hint: if {only_addr[:20]}... is your change address, "
+                f"re-run with --change-address {only_addr}"
+            )
 
     print("\n" + "=" * 80)
     print("SUMMARY")
