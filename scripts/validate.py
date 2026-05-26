@@ -131,10 +131,12 @@ def parse_args():
 def usage(exit_code=1):
     out = sys.stdout if exit_code == 0 else sys.stderr
     print(f"Usage: {sys.argv[0]} <payment-file> <tx-json> [--change-address <addr>]", file=out)
-    print("  <payment-file>       Payment details file (.csv or .json)", file=out)
-    print("  <tx-json>            cardano-cli tx view JSON (e.g. bulk-payment.tx.json)", file=out)
-    print("  --change-address     Optional. Tx output to this address is treated as change,", file=out)
-    print("                       not flagged as an unmatched extra.", file=out)
+    print("  <payment-file>            (Required) Payment details file (.csv or .json)", file=out)
+    print("  <tx-json>                 (Required) cardano-cli tx view JSON", file=out)
+    print("                            (e.g. bulk-payment.tx.json)", file=out)
+    print("  --change-address <addr>   (Optional) Tx output to this address is treated as", file=out)
+    print("                            change, not flagged as an unmatched extra.", file=out)
+    print("  -h, --help                Show this help message and exit", file=out)
     sys.exit(exit_code)
 
 

@@ -3,8 +3,6 @@
 Report stats and sanity checks on a committee rewards payment JSON file:
 sanity findings (unusual amounts, zero entries, duplicates), totals,
 per-committee/month breakdowns, and addresses receiving multiple payments.
-
-Usage: total-payments.py <payment.json>
 """
 
 import json
@@ -31,12 +29,32 @@ def period_str(meta):
     return f"{meta.get('reward_year', '?')} {meta.get('reward_month', '?')}"
 
 
-def main():
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <payment.json>", file=sys.stderr)
-        sys.exit(1)
+def usage(exit_code=1):
+    out = sys.stdout if exit_code == 0 else sys.stderr
+    expected = ", ".join(str(a) for a in EXPECTED_AMOUNTS_ADA)
+    print(f"Usage: {sys.argv[0]} <payment.json>", file=out)
+    print("  <payment.json>    (Required) Payment JSON file to report on", file=out)
+    print("                    (top-level array of {address, lovelace_amount, metadata})", file=out)
+    print("  -h, --help        Show this help message and exit", file=out)
+    print("", file=out)
+    print(f"Sanity check flags amounts outside the expected set: {expected} ADA.", file=out)
+    sys.exit(exit_code)
 
-    input_path = Path(sys.argv[1])
+
+def parse_args():
+    positional = []
+    for arg in sys.argv[1:]:
+        if arg in ("-h", "--help"):
+            usage(exit_code=0)
+        positional.append(arg)
+    if len(positional) != 1:
+        usage()
+    return Path(positional[0])
+
+
+def main():
+    input_path = parse_args()
+
     if not input_path.exists():
         print(f"ERROR: File not found: {input_path}", file=sys.stderr)
         sys.exit(1)

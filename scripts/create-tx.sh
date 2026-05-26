@@ -33,15 +33,21 @@ fi
 
 # Usage message
 
+print_usage() {
+    local out="${1:-/dev/stderr}"
+    {
+        echo "Usage: $0 <payment address> <payment details file> [--metadata-file <jsonld-file>]"
+        echo "  <payment address>                   (Required) Cardano payment address in Bech32"
+        echo "  <payment details file>              (Required) Path to a CSV or JSON file with payment details"
+        echo "                                        CSV format: address,lovelace_amount,..."
+        echo "                                        JSON format: [{\"address\": \"...\", \"lovelace_amount\": 123, ...}]"
+        echo "  --metadata-file <jsonld-file>       (Optional) Path to the JSON metadata file"
+        echo "  -h, --help                          Show this help message and exit"
+    } > "$out"
+}
+
 usage() {
-    echo "Usage: $0 <payment address> <payment details file> [--metadata-file <jsonld-file>]"
-    echo "Options:"
-    echo "  <payment address>                   (Required) Cardano payment address in Bech32"
-    echo "  <payment details file>              (Required) Path to a CSV or JSON file with payment details"
-    echo "                                        CSV format: address,lovelace_amount,..."
-    echo "                                        JSON format: [{\"address\": \"...\", \"lovelace_amount\": 123, ...}]"
-    echo "  --metadata-file <jsonld-file>       (Optional) Path to the JSON metadata file"
-    echo "  -h, --help                           Show this help message and exit"
+    print_usage /dev/stderr
     exit 1
 }
 
@@ -66,7 +72,8 @@ while [[ $# -gt 0 ]]; do
             fi
             ;;
         -h|--help)
-            usage
+            print_usage /dev/stdout
+            exit 0
             ;;
         *)
             if [ -z "$payment_address_input" ]; then
