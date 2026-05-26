@@ -158,6 +158,7 @@ fi
 output_dir=$(dirname "$(realpath "$payment_details_list_file")")
 tx_file="$output_dir/bulk-payment.tx"
 tx_view_file="$output_dir/bulk-payment.tx.json"
+transformed_tx_file="$output_dir/bulk-payment-transformed.tx"
 echo -e "${BLUE}Writing tx files to:${NC} $output_dir"
 
 cardano-cli conway transaction build \
@@ -174,3 +175,8 @@ cardano-cli conway transaction build \
 cardano-cli debug transaction  view \
     --tx-file "$tx_file" \
     --out-file "$tx_view_file"
+
+echo -e "${BLUE}Transforming tx for hardware wallet signing:${NC} $transformed_tx_file"
+cardano-hw-cli transaction transform \
+    --tx-file "$tx_file" \
+    --out-file "$transformed_tx_file"
