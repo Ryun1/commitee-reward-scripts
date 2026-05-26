@@ -1,243 +1,236 @@
 #!/usr/bin/env python3
 """
 Validate payment CSV or JSON against the tx view JSON.
-Checks that each entry in the payment file matches an output in the tx JSON.
+Checks that every entry in the payment file is matched by exactly one output
+in the tx JSON, including correct counts for addresses receiving multiple
+payments.
 
-Usage: validate.py <payment-file> <tx-json>
+Usage: validate.py <payment-file> <tx-json> [--change-address <addr>]
 """
 
-import json
 import csv
+import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 
-def load_outputs(json_path):
-    """Load and index outputs.json by address, collecting all amounts per address"""
-    with open(json_path, 'r') as f:
+LOVELACE_PER_ADA = 1_000_000
+
+
+def fmt_ada(lovelace):
+    return f"{int(lovelace) / LOVELACE_PER_ADA:,.6f} ADA"
+
+
+def load_tx_outputs(tx_json_path):
+    """Return address -> list of lovelace amounts from the tx view JSON."""
+    with open(tx_json_path, "r") as f:
         tx_json = json.load(f)
-    outputs = tx_json.get('outputs', [])
-    # Map address -> list of amounts (an address can have multiple UTxOs)
-    outputs_dict = {}
-    for output in outputs:
-        address = output['address']
-        if 'coin' not in output['amount']:
-            coin = output['amount']['lovelace']
-        else:
-            coin = output['amount']['coin']
-
-        outputs_dict.setdefault(address, []).append(coin)
-
-    return outputs_dict
+    outputs = defaultdict(list)
+    for output in tx_json.get("outputs", []):
+        amount = output["amount"]
+        coin = amount.get("lovelace", amount.get("coin"))
+        outputs[output["address"]].append(int(coin))
+    return outputs
 
 
-def validate_csv(csv_path, outputs_dict):
-    """Validate CSV entries against outputs dictionary"""
-    errors = []
-    warnings = []
-    matches = []
+def load_payment_entries(path):
+    """Return a list of (address, lovelace_amount, label) from a CSV or JSON file."""
+    ext = path.suffix.lower()
+    entries = []
 
-    with open(csv_path, 'r') as f:
-        # Skip the header row
-        reader = csv.reader(f)
-        header = next(reader)
-
-        for row_num, row in enumerate(reader, start=2):  # Start at 2 because of header
-            if not row or len(row) < 2:
-                warnings.append(f"Row {row_num}: Empty or incomplete row")
+    if ext == ".json":
+        with open(path, "r") as f:
+            raw = json.load(f)
+        for i, entry in enumerate(raw, start=1):
+            if "address" not in entry or "lovelace_amount" not in entry:
+                entries.append((None, None, f"Entry {i}"))
                 continue
+            entries.append((
+                entry["address"].strip(),
+                int(entry["lovelace_amount"]),
+                f"Entry {i}",
+            ))
+    elif ext == ".csv":
+        with open(path, "r") as f:
+            reader = csv.reader(f)
+            # create-tx.sh skips 2 header rows for CSVs (tail -n +3) — match that.
+            next(reader, None)
+            next(reader, None)
+            for row_num, row in enumerate(reader, start=3):
+                if not row or len(row) < 2:
+                    entries.append((None, None, f"Row {row_num}"))
+                    continue
+                entries.append((
+                    row[0].strip(),
+                    int(row[1].strip()),
+                    f"Row {row_num}",
+                ))
+    else:
+        raise ValueError(f"Unsupported file type '{ext}' (expected .csv or .json)")
 
-            wallet_address = row[0].strip()
-            csv_amount = row[1].strip()
-
-            # Check if address exists in outputs.json
-            if wallet_address not in outputs_dict:
-                errors.append(f"Row {row_num}: Address NOT FOUND in outputs.json")
-                errors.append(f"  Address: {wallet_address}")
-                errors.append(f"  CSV Amount: {csv_amount}")
-            else:
-                json_amounts = outputs_dict[wallet_address]
-
-                # Check if amount matches any UTxO at this address
-                if int(csv_amount) in [int(a) for a in json_amounts]:
-                    matches.append(f"Row {row_num}: ✓ MATCH - {wallet_address[:20]}... = {csv_amount} lovelace")
-                else:
-                    errors.append(f"Row {row_num}: AMOUNT MISMATCH")
-                    errors.append(f"  Address: {wallet_address}")
-                    errors.append(f"  CSV Amount: {csv_amount}")
-                    errors.append(f"  JSON Amounts: {json_amounts}")
-
-    return matches, errors, warnings
-
-
-def check_extra_entries(csv_path, outputs_dict):
-    """Check if outputs.json has entries not in CSV"""
-    csv_addresses = set()
-
-    with open(csv_path, 'r') as f:
-        reader = csv.reader(f)
-        next(reader)  # Skip header
-        for row in reader:
-            if row and len(row) >= 1:
-                csv_addresses.add(row[0].strip())
-
-    json_addresses = set(outputs_dict.keys())
-    extra_in_json = json_addresses - csv_addresses
-
-    return extra_in_json
+    return entries
 
 
-def validate_json(json_input_path, outputs_dict):
-    """Validate JSON input entries against outputs dictionary"""
-    errors = []
-    warnings = []
-    matches = []
+def validate(entries, tx_outputs):
+    """Consume tx outputs to match payment entries. Returns (matches, errors, warnings, remaining)."""
+    matches, errors, warnings = [], [], []
+    # Copy so we can pop as we consume — leftover entries become the "extras" report.
+    remaining = {addr: list(amounts) for addr, amounts in tx_outputs.items()}
 
-    with open(json_input_path, 'r') as f:
-        entries = json.load(f)
-
-    for entry_num, entry in enumerate(entries, start=1):
-        if 'address' not in entry or 'lovelace_amount' not in entry:
-            warnings.append(f"Entry {entry_num}: Missing 'address' or 'lovelace_amount' field, skipping")
+    for address, amount, label in entries:
+        if address is None:
+            warnings.append(f"{label}: empty or missing fields, skipped")
             continue
 
-        wallet_address = entry['address'].strip()
-        input_amount = entry['lovelace_amount']
+        available = remaining.get(address)
+        if not available:
+            errors.append(
+                f"{label}: address NOT FOUND (or already consumed) in tx — "
+                f"{address}  expected {fmt_ada(amount)}"
+            )
+            continue
 
-        if wallet_address not in outputs_dict:
-            errors.append(f"Entry {entry_num}: Address NOT FOUND in outputs.json")
-            errors.append(f"  Address: {wallet_address}")
-            errors.append(f"  Input Amount: {input_amount}")
+        if amount in available:
+            available.remove(amount)
+            matches.append(f"{label}: ✓ {address[:20]}... = {fmt_ada(amount)}")
+            if not available:
+                del remaining[address]
         else:
-            json_amounts = outputs_dict[wallet_address]
+            errors.append(
+                f"{label}: AMOUNT MISMATCH at {address}  "
+                f"expected {fmt_ada(amount)}  available {[fmt_ada(a) for a in available]}"
+            )
 
-            if int(input_amount) in [int(a) for a in json_amounts]:
-                matches.append(f"Entry {entry_num}: ✓ MATCH - {wallet_address[:20]}... = {input_amount} lovelace")
-            else:
-                errors.append(f"Entry {entry_num}: AMOUNT MISMATCH")
-                errors.append(f"  Address: {wallet_address}")
-                errors.append(f"  Input Amount: {input_amount}")
-                errors.append(f"  JSON Amounts: {json_amounts}")
-
-    return matches, errors, warnings
+    return matches, errors, warnings, remaining
 
 
-def check_extra_entries_json(json_input_path, outputs_dict):
-    """Check if outputs.json has entries not in the JSON input file"""
-    with open(json_input_path, 'r') as f:
-        entries = json.load(f)
+def parse_args():
+    args = sys.argv[1:]
+    change_address = None
+    positional = []
+    i = 0
+    while i < len(args):
+        if args[i] == "--change-address":
+            if i + 1 >= len(args):
+                usage()
+            change_address = args[i + 1]
+            i += 2
+        elif args[i] in ("-h", "--help"):
+            usage(exit_code=0)
+        else:
+            positional.append(args[i])
+            i += 1
 
-    input_addresses = {entry['address'].strip() for entry in entries if 'address' in entry}
-    json_addresses = set(outputs_dict.keys())
-    extra_in_json = json_addresses - input_addresses
+    if len(positional) != 2:
+        usage()
 
-    return extra_in_json
+    return Path(positional[0]), Path(positional[1]), change_address
 
 
-def usage():
-    print(f"Usage: {sys.argv[0]} <payment-file> <tx-json>", file=sys.stderr)
-    print("  <payment-file>  Payment details file (.csv or .json)", file=sys.stderr)
-    print("  <tx-json>       cardano-cli tx view JSON (e.g. bulk-payment.tx.json)", file=sys.stderr)
-    sys.exit(1)
+def usage(exit_code=1):
+    out = sys.stdout if exit_code == 0 else sys.stderr
+    print(f"Usage: {sys.argv[0]} <payment-file> <tx-json> [--change-address <addr>]", file=out)
+    print("  <payment-file>       Payment details file (.csv or .json)", file=out)
+    print("  <tx-json>            cardano-cli tx view JSON (e.g. bulk-payment.tx.json)", file=out)
+    print("  --change-address     Optional. Tx output to this address is treated as change,", file=out)
+    print("                       not flagged as an unmatched extra.", file=out)
+    sys.exit(exit_code)
 
 
 def main():
-    if len(sys.argv) != 3:
-        usage()
+    input_path, tx_path, change_address = parse_args()
 
-    input_path = Path(sys.argv[1])
-    json_path = Path(sys.argv[2])
-
-    # Check if files exist
     if not input_path.exists():
         print(f"❌ ERROR: Payment file not found: {input_path}")
         sys.exit(1)
-
-    if not json_path.exists():
-        print(f"❌ ERROR: JSON file not found: {json_path}")
-        sys.exit(1)
-
-    # Detect input file type
-    file_ext = input_path.suffix.lower()
-    if file_ext not in ('.csv', '.json'):
-        print(f"❌ ERROR: Unsupported file type '{file_ext}' (expected .csv or .json)")
+    if not tx_path.exists():
+        print(f"❌ ERROR: Tx JSON file not found: {tx_path}")
         sys.exit(1)
 
     print("=" * 80)
     print("PAYMENT VALIDATION REPORT")
     print("=" * 80)
-    print(f"Input File: {input_path}")
-    print(f"JSON File:  {json_path}")
+    print(f"Payment file: {input_path}")
+    print(f"Tx JSON:      {tx_path}")
+    if change_address:
+        print(f"Change addr:  {change_address}")
     print("=" * 80)
 
-    # Load outputs.json
     try:
-        outputs_dict = load_outputs(json_path)
-        print(f"\n✓ Loaded {len(outputs_dict)} entries from outputs.json")
+        tx_outputs = load_tx_outputs(tx_path)
+        total_tx_outputs = sum(len(v) for v in tx_outputs.values())
+        print(f"\n✓ Loaded {total_tx_outputs} tx outputs across {len(tx_outputs)} addresses")
     except Exception as e:
-        print(f"❌ ERROR loading outputs.json: {e}")
+        print(f"❌ ERROR loading tx JSON: {e}")
         sys.exit(1)
 
-    # Validate input file
     try:
-        if file_ext == '.json':
-            print("Detected JSON input file")
-            matches, errors, warnings = validate_json(input_path, outputs_dict)
-            extra_in_json = check_extra_entries_json(input_path, outputs_dict)
-        else:
-            print("Detected CSV input file")
-            matches, errors, warnings = validate_csv(input_path, outputs_dict)
-            extra_in_json = check_extra_entries(input_path, outputs_dict)
+        entries = load_payment_entries(input_path)
     except Exception as e:
-        print(f"❌ ERROR validating payment file: {e}")
+        print(f"❌ ERROR loading payment file: {e}")
         sys.exit(1)
+    print(f"✓ Loaded {len(entries)} payment entries")
 
-    # Print results
+    matches, errors, warnings, remaining = validate(entries, tx_outputs)
+
+    # Split leftover tx outputs into expected change vs unexpected extras.
+    change_outputs = {}
+    extra_outputs = {}
+    if change_address and change_address in remaining:
+        change_outputs[change_address] = remaining.pop(change_address)
+    extra_outputs = remaining
+
     print("\n" + "=" * 80)
-    print("VALIDATION RESULTS")
+    print("RESULTS")
     print("=" * 80)
 
     if matches:
         print(f"\n✓ MATCHES ({len(matches)}):")
-        for match in matches:
-            print(f"  {match}")
+        for m in matches:
+            print(f"  {m}")
 
     if warnings:
         print(f"\n⚠ WARNINGS ({len(warnings)}):")
-        for warning in warnings:
-            print(f"  {warning}")
+        for w in warnings:
+            print(f"  {w}")
 
     if errors:
         print(f"\n❌ ERRORS ({len(errors)}):")
-        for error in errors:
-            print(f"  {error}")
+        for e in errors:
+            print(f"  {e}")
 
-    if extra_in_json:
-        print(f"\n⚠ EXTRA ENTRIES IN JSON NOT IN CSV ({len(extra_in_json)}):")
-        for addr in sorted(extra_in_json):
-            print(f"  {addr} = {outputs_dict[addr]} lovelace")
+    if change_outputs:
+        print(f"\nℹ CHANGE OUTPUTS ({sum(len(v) for v in change_outputs.values())}):")
+        for addr, amounts in change_outputs.items():
+            for a in amounts:
+                print(f"  {addr} = {fmt_ada(a)}")
 
-    # Summary
+    if extra_outputs:
+        total_extra = sum(len(v) for v in extra_outputs.values())
+        print(f"\n⚠ UNMATCHED TX OUTPUTS ({total_extra}):")
+        for addr in sorted(extra_outputs):
+            for a in extra_outputs[addr]:
+                print(f"  {addr} = {fmt_ada(a)}")
+
     print("\n" + "=" * 80)
     print("SUMMARY")
     print("=" * 80)
-    total_input_rows = len(matches) + (len(errors) // 3)  # Approximate
-    print(f"Entries Processed: {total_input_rows}")
-    print(f"Matches: {len(matches)}")
-    print(f"Errors: {len([e for e in errors if 'Row' in e or 'Entry' in e])}")
-    print(f"Warnings: {len(warnings)}")
-    print(f"Extra in JSON: {len(extra_in_json)}")
+    print(f"Payment entries:   {len(entries)}")
+    print(f"Matches:           {len(matches)}")
+    print(f"Errors:            {len(errors)}")
+    print(f"Warnings:          {len(warnings)}")
+    print(f"Change outputs:    {sum(len(v) for v in change_outputs.values())}")
+    print(f"Unmatched extras:  {sum(len(v) for v in extra_outputs.values())}")
 
-    # Exit code
-    if errors:
-        print("\n❌ VALIDATION FAILED - Errors found")
+    if errors or extra_outputs:
+        print("\n❌ VALIDATION FAILED")
         sys.exit(1)
-    elif warnings or extra_in_json:
+    if warnings:
         print("\n⚠ VALIDATION PASSED WITH WARNINGS")
         sys.exit(0)
-    else:
-        print("\n✅ VALIDATION PASSED - All entries match!")
-        sys.exit(0)
+    print("\n✅ VALIDATION PASSED — all entries match")
+    sys.exit(0)
 
 
 if __name__ == "__main__":
