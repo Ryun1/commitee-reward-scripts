@@ -1,0 +1,1162 @@
+{
+    "auxiliary scripts": null,
+    "certificates": null,
+    "collateral inputs": [],
+    "currentTreasuryValue": null,
+    "datums": [],
+    "era": "Conway",
+    "fee": "432273 Lovelace",
+    "governance actions": [],
+    "inputs": [
+        "90acbc2ed07daa32c26c3ae2818f821941b5b76c915e6e37c90dc96995867eb5#0",
+        "bc9916893f53e0b84a5cb282cb3a152a0f08d1ebd49d90ee328e2409a4fd5bfd#1"
+    ],
+    "metadata": {
+        "674": [
+            [
+                "msg",
+                [
+                    "Intersect Committee Rewards – May 2026 Payment. This ",
+                    "transaction includes 85 payments to committee members ",
+                    "across 8 committees, covering reward periods from ",
+                    "November 2025 through May 2026. Each payment corresponds ",
+                    "to an individual contributor, committee, and reward month."
+                ]
+            ]
+        ]
+    },
+    "mint": null,
+    "outputs": [
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 499000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2a6d800c818ea895fafe5afd95191853625d185c2479921b8feee352",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "903fa3138059e74357b5b24a3f9fee013dc9b6b96ff929905520e538"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "aab3f1c734f2f4d2b4c49bc2e15cbaf22c5dd4b9ef79892c7589581c",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "795b4c631447ab970f11d01052410b8adbcd05ad09491617aeb40c99"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "09c4c79d7e55097605ca0120305dd71719126fb1871cd3eae073cec1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "104eca75680f0dafde2ac9d4f927bf546a3324e66fb5b4bf610f6948"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "d8df7d976aa0928490f062e6e02d5826120e0f98bdfc297afcc9e0ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "138b5ad127764f853a5919fc10341cc18f5666750454023bb56c29f8"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a0647aba5c109338a746f0686591f49245986779619c834b3f9cd77b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6df1d94202bcea6f5fe0c5a8455a06be072ed5afe58c966ed6718c17"
+            }
+        },
+        {
+            "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "7104d985abf2f97131d9fe95c87a8573d09a8cfd92fa6c69ea1e47e2",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "0cfd97cf4dfa7abd9a1cec4ab665c79d9703e1eace662b4b45c8e900"
+            }
+        },
+        {
+            "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "09c4c79d7e55097605ca0120305dd71719126fb1871cd3eae073cec1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "104eca75680f0dafde2ac9d4f927bf546a3324e66fb5b4bf610f6948"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a0647aba5c109338a746f0686591f49245986779619c834b3f9cd77b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6df1d94202bcea6f5fe0c5a8455a06be072ed5afe58c966ed6718c17"
+            }
+        },
+        {
+            "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "7104d985abf2f97131d9fe95c87a8573d09a8cfd92fa6c69ea1e47e2",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "0cfd97cf4dfa7abd9a1cec4ab665c79d9703e1eace662b4b45c8e900"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "d8df7d976aa0928490f062e6e02d5826120e0f98bdfc297afcc9e0ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "138b5ad127764f853a5919fc10341cc18f5666750454023bb56c29f8"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "aab3f1c734f2f4d2b4c49bc2e15cbaf22c5dd4b9ef79892c7589581c",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "795b4c631447ab970f11d01052410b8adbcd05ad09491617aeb40c99"
+            }
+        },
+        {
+            "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2a6d800c818ea895fafe5afd95191853625d185c2479921b8feee352",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "903fa3138059e74357b5b24a3f9fee013dc9b6b96ff929905520e538"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "09c4c79d7e55097605ca0120305dd71719126fb1871cd3eae073cec1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "104eca75680f0dafde2ac9d4f927bf546a3324e66fb5b4bf610f6948"
+            }
+        },
+        {
+            "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a0647aba5c109338a746f0686591f49245986779619c834b3f9cd77b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6df1d94202bcea6f5fe0c5a8455a06be072ed5afe58c966ed6718c17"
+            }
+        },
+        {
+            "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "7104d985abf2f97131d9fe95c87a8573d09a8cfd92fa6c69ea1e47e2",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "0cfd97cf4dfa7abd9a1cec4ab665c79d9703e1eace662b4b45c8e900"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2a6d800c818ea895fafe5afd95191853625d185c2479921b8feee352",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "903fa3138059e74357b5b24a3f9fee013dc9b6b96ff929905520e538"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "aab3f1c734f2f4d2b4c49bc2e15cbaf22c5dd4b9ef79892c7589581c",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "795b4c631447ab970f11d01052410b8adbcd05ad09491617aeb40c99"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "d8df7d976aa0928490f062e6e02d5826120e0f98bdfc297afcc9e0ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "138b5ad127764f853a5919fc10341cc18f5666750454023bb56c29f8"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2a6d800c818ea895fafe5afd95191853625d185c2479921b8feee352",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "903fa3138059e74357b5b24a3f9fee013dc9b6b96ff929905520e538"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "09c4c79d7e55097605ca0120305dd71719126fb1871cd3eae073cec1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "104eca75680f0dafde2ac9d4f927bf546a3324e66fb5b4bf610f6948"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "d8df7d976aa0928490f062e6e02d5826120e0f98bdfc297afcc9e0ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "138b5ad127764f853a5919fc10341cc18f5666750454023bb56c29f8"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "7104d985abf2f97131d9fe95c87a8573d09a8cfd92fa6c69ea1e47e2",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "0cfd97cf4dfa7abd9a1cec4ab665c79d9703e1eace662b4b45c8e900"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a0647aba5c109338a746f0686591f49245986779619c834b3f9cd77b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6df1d94202bcea6f5fe0c5a8455a06be072ed5afe58c966ed6718c17"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qxdv695wd05609ztpecg2tcrt93vq6pj75exjgq9a3u5ym2mlkhe5f2k8jsn9cwpp8g6v0j2szyfahhx2nm2putzyldqqtfxw0",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "9acd168e6be9a7944b0e70852f035962c06832f532692005ec79426d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "5bfdaf9a25563ca132e1c109d1a63e4a80889edee654f6a0f16227da"
+            }
+        },
+        {
+            "address": "addr1qym2cy782fsffcq0unw62f6t6w3qgu4lndfd5my4uy2s2gdyvfzzqz07edkucjg2ksr0t52ln39lkpwaljgv779u57ast2pfez",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "36ac13c7526094e00fe4dda5274bd3a20472bf9b52da6c95e1150521",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "a462442009fecb6dcc490ab406f5d15f9c4bfb05ddfc90cf78bca7bb"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1qx3nmmfgs3n2gj408vnh2frjpnj02me7q32ljrfln4cjrs0uc4cfa0u0qtc9trlafnzgzfz04rp9w27n87sy5zkj298s3kksl2",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a33ded288466a44aaf3b277524720ce4f56f3e0455f90d3f9d7121c1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "fcc5709ebf8f02f0558ffd4cc481244fa8c2572bd33fa04a0ad2514f"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1q9mcsgapzarg96n7cdt0m0l04jcr8lsypdh4jupcfg7u0tsuczyl9mps9cj5afffaudy6qk9hr7lts46xtqyrf77napspteyvp",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "778823a1174682ea7ec356fdbfefacb033fe040b6f5970384a3dc7ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "1cc089f2ec302e254ea529ef1a4d02c5b8fdf5c2ba32c041a7de9f43"
+            }
+        },
+        {
+            "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "d8df7d976aa0928490f062e6e02d5826120e0f98bdfc297afcc9e0ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "138b5ad127764f853a5919fc10341cc18f5666750454023bb56c29f8"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "09c4c79d7e55097605ca0120305dd71719126fb1871cd3eae073cec1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "104eca75680f0dafde2ac9d4f927bf546a3324e66fb5b4bf610f6948"
+            }
+        },
+        {
+            "address": "addr1qx8xn0zwc6vrqm0lw7daql5x7x8tlale6tz005g2hhfn85av635z0fphdhmxujen259r4tr6veseej3whlxmkz8xe97qjc7y7y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8e69bc4ec698306dff779bd07e86f18ebff7f9d2c4f7d10abdd333d3",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "acd46827a4376df66e4b33550a3aac7a66619cca2ebfcdbb08e6c97c"
+            }
+        },
+        {
+            "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a0647aba5c109338a746f0686591f49245986779619c834b3f9cd77b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6df1d94202bcea6f5fe0c5a8455a06be072ed5afe58c966ed6718c17"
+            }
+        },
+        {
+            "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2a6d800c818ea895fafe5afd95191853625d185c2479921b8feee352",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "903fa3138059e74357b5b24a3f9fee013dc9b6b96ff929905520e538"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "b1fdd748c6c0a22e93ba5ccf93f8dca1b70a8ac1b44e05d2a6f3b65f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6c985c631f0f3d01363bcc8196c3280fec7c16cc56793c453e68ff35"
+            }
+        },
+        {
+            "address": "addr1q969pqdex204usts3dypdq592whk46hfe44s9k3n04h2hxe0tmwel0mj55vcggeqymqzz0h6fgvp0rdakhctl0s0nz7q7zurdn",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "745081b9329f5e41708b4816828553af6aeae9cd6b02da337d6eab9b",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "2f5edd9fbf72a51984232026c0213efa4a18178dbdb5f0bfbe0f98bc"
+            }
+        },
+        {
+            "address": "addr1v83asw72qe5epvvwj8gg22cc5en4568gk2vephh8vxf22zsmv5kc2",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "e3d83bca066990b18e91d0852b18a6675a68e8b29990dee76192a50a",
+            "reference script": null,
+            "stake reference": null
+        },
+        {
+            "address": "addr1qylctn9a4h46ww7jsqah533s7ldrlrzn7mrhl5rdptrumn6ke58azzzukvzyymfk9ank0hx59vmg3e6htuuaqalar9qqyj7849",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3f85ccbdadeba73bd2803b7a4630f7da3f8c53f6c77fd06d0ac7cdcf",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "56cd0fd1085cb304426d362f6767dcd42b3688e7575f39d077fd1940"
+            }
+        },
+        {
+            "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "7104d985abf2f97131d9fe95c87a8573d09a8cfd92fa6c69ea1e47e2",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "0cfd97cf4dfa7abd9a1cec4ab665c79d9703e1eace662b4b45c8e900"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8581e8c9472bca35d71f01bf94927b0b23fd4cfc418737fdaa7bb645",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9fc99526437e3a15a47350923cb2d3aa2521a75c8dc2997f46dee8dd"
+            }
+        },
+        {
+            "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "0c86caacdeb5d65eeaf86e1c63eb77a74589e759a07f0496d0b29317",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "c341242db4a14709201a5ac5f36e38c3cd91230805b3fb90865565d6"
+            }
+        },
+        {
+            "address": "addr1q8n540d66lsl8ej8z0lg3r86u8ftwxmf3ykm2dzrsskwwrs30getrwahwaxgquvvt7gjvwwmu2vdqlp8stg3tzzl49pqyhvm74",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "e74abdbad7e1f3e64713fe888cfae1d2b71b69892db53443842ce70e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "117a32b1bbb7774c80718c5f912639dbe298d07c2782d115885fa942"
+            }
+        },
+        {
+            "address": "addr1qxn6q4pj34utsalhs6ppjfl9fcp5h4rmvw6z594nuf6c8leymj34m5yg4hfcqcdqz9emf2avarj09h2atx0an6vvjjasw0004u",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a7a054328d78b877f786821927e54e034bd47b63b42a16b3e27583ff",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "24dca35dd088add38061a01173b4abace8e4f2dd5d599fd9e98c94bb"
+            }
+        },
+        {
+            "address": "addr1qygf8g0sd8v8tqha03nemmagj2s78sys4zdhun38c9a2p8mq7zcmh7er8kcgw6xfhdawk04hrtkt4x894dd3947x3xtqd9hlxh",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "1093a1f069d87582fd7c679defa892a1e3c090a89b7e4e27c17aa09f",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "60f0b1bbfb233db08768c9bb7aeb3eb71aecba98e5ab5b12d7c68996"
+            }
+        },
+        {
+            "address": "addr1q9mcsgapzarg96n7cdt0m0l04jcr8lsypdh4jupcfg7u0tsuczyl9mps9cj5afffaudy6qk9hr7lts46xtqyrf77napspteyvp",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "778823a1174682ea7ec356fdbfefacb033fe040b6f5970384a3dc7ae",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "1cc089f2ec302e254ea529ef1a4d02c5b8fdf5c2ba32c041a7de9f43"
+            }
+        },
+        {
+            "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "32c44890120645f4aa5ca81bcd979db15a2e2d6bce35667a5b643c4d",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "79d149613a79dc6226a3f3b447bd4d41fd4ced11fdc5896cbd867cfc"
+            }
+        },
+        {
+            "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "3a20865e23da761e01f4f359a387e9acd3a407389dde4a6aaa407a6e",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "6ca298b118f08a35a8b0e05ace878f8af4bd2d71b04db7e909342065"
+            }
+        },
+        {
+            "address": "addr1q9u6ru0ydd8c908cl3eywgyk254qs23j7np8su67rq5e9h2rr8q82nhkrz9tmld6ve88u49u7agemnzrqsqtl4e2fqlsxhtat6",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "79a1f1e46b4f82bcf8fc72472096552a082a32f4c278735e182992dd",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "4319c0754ef6188abdfdba664e7e54bcf7519dcc430400bfd72a483f"
+            }
+        },
+        {
+            "address": "addr1qy6s5texuq3t5t7mtfxheyuzkwanqmg6m4ly3w62ascluhy96l7fy78wve0djky72feahtvchee66ct2tx6n783yqyuqhw9xh0",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 499000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "350a2f26e022ba2fdb5a4d7c9382b3bb306d1add7e48bb4aec31fe5c",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "85d7fc9278ee665ed9589e5273dbad98be73ad616a59b53f1e240138"
+            }
+        },
+        {
+            "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "2199f3a66d4bcf57e758c542ed29f10c6fa1d70f0e897b4e287010be",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "27eb6d3a75c4aa9392f405271569338602106e294f37acb9c300231f"
+            }
+        },
+        {
+            "address": "addr1qx3nmmfgs3n2gj408vnh2frjpnj02me7q32ljrfln4cjrs0uc4cfa0u0qtc9trlafnzgzfz04rp9w27n87sy5zkj298s3kksl2",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 500000000
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "a33ded288466a44aaf3b277524720ce4f56f3e0455f90d3f9d7121c1",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "fcc5709ebf8f02f0558ffd4cc481244fa8c2572bd33fa04a0ad2514f"
+            }
+        },
+        {
+            "address": "addr1qx93k28kzzu4fng49cfcj8w7m8px36wf9z8j94638lu8cw574gazl7xgwlxg4uxe4ytwnttj8qw489waumt82gx5jdtqwh8hn0",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 553320785
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "8b1b28f610b954cd152e13891dded9c268e9c9288f22d7513ff87c3a",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "9eaa3a2ff8c877cc8af0d9a916e9ad72381d5395dde6d67520d49356"
+            }
+        }
+    ],
+    "redeemers": [],
+    "reference inputs": [],
+    "required signers (payment key hashes needed for scripts)": null,
+    "return collateral": null,
+    "scripts": [],
+    "total collateral": null,
+    "treasuryDonation": 0,
+    "update proposal": null,
+    "validity range": {
+        "lower bound": null,
+        "upper bound": null
+    },
+    "voters": {},
+    "withdrawals": null,
+    "witnesses": []
+}

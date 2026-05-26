@@ -1,0 +1,1070 @@
+[
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 499000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 416,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "November",
+      "reward_year": 2025,
+      "contribution_report": "attended meetings, giving perspective, started introducing drep incentives to the civics committee, participated in working group meetings"
+    }
+  },
+  {
+    "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 309,
+      "claim_id": 372,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Contributed to:\n- NCL scenario analysis, forecasting of Treasury levels under different NCL levels\n- Budget Process for 2026"
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 342,
+      "committee": "Product Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Month 1 (Nov) — Summit Workshop, Meeting active participation and working thru Miro board agenda"
+    }
+  },
+  {
+    "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4335,
+      "claim_id": 331,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "I took part in the meetings and voted when necessary.\nDuring the Hackathon organized for the Cardano Africa Tech Summit, I hosted a series of training about Governance. "
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 388,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "I have helped shape Intersect's internal policies regarding stipends and committee work. Furthermore, I have contributed to improving internal processes and the way committees function and report their activities. This includes enhancing various initiatives, proposing meaningful improvements, and keeping track of progress to drive the organization forward. This is continuous work with multiple moving activities. I tend to be present for every meeting.\n"
+    }
+  },
+  {
+    "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1205,
+      "claim_id": 364,
+      "committee": "Technical Steering Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Participated in Fork Incident Forensic Working Group and Parameter Committee Discussions.  Reviewed & Debated Nested Transactions CIP.  Provided feedback on TSC Operational Budget."
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 383,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "As a member of the Budget Process Committee, my work has primarily focused on building and establishing the budget process for 2026, as well as shaping the NCL thinking process and framework."
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 359,
+      "committee": "Open Source Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Maintainer Retainer interviews\nParticipation in Tooling WG\nCardano Summit Berlin participation and reporting\nAttendance to OSC weekly meetings and decision making\n"
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 417,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "joined meetings, participated in working group meetings, christmas holidays"
+    }
+  },
+  {
+    "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3171,
+      "claim_id": 354,
+      "committee": "Technical Steering Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Participation in TSC meetings and decision making  \n\nContribute to Vision 2030 KPIs definitions "
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 377,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Attended all monthly meetings and contributed to calculations of optimal NCL by extrapolating data provided by Cardano Foundation "
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 336,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "During this reporting period, I actively participated in GMC community meetings and contributed to ongoing discussions related to community growth and marketing initiatives."
+    }
+  },
+  {
+    "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4773,
+      "claim_id": 348,
+      "committee": "Technical Steering Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Advocated for CIP editor funding, discuss intra-era hard-fork, wrote annual TSC report"
+    }
+  },
+  {
+    "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2704,
+      "claim_id": 397,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "December",
+      "reward_year": 2025,
+      "contribution_report": "Attended weekly meetings"
+    }
+  },
+  {
+    "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1205,
+      "claim_id": 365,
+      "committee": "Technical Steering Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Participated in HFWG, Chain Partition Incident Working Group, and Parameter Committee Discussions.  Discussed planning for Dijkstra-era shortlist of CIPs to be included."
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 389,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "I have helped shape Intersect's internal policies regarding stipends and committee work. Furthermore, I have contributed to improving internal processes and the way committees function and report their activities. This includes enhancing various initiatives, proposing meaningful improvements, and keeping track of progress to drive the organization forward. This is continuous work with multiple moving activities. I tend to be present for every meeting.\n"
+    }
+  },
+  {
+    "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4773,
+      "claim_id": 349,
+      "committee": "Technical Steering Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Discussion of mainnet incident / forensics on it, Layer 2 working group reporting, intra-era hard fork plutus/node version reporting, product vision / KPI discussion"
+    }
+  },
+  {
+    "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2704,
+      "claim_id": 398,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Attended weekly meetings"
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 418,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Joined meetings, participated in working groups, started transforming the drep incentives idea to governance incentives."
+    }
+  },
+  {
+    "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3171,
+      "claim_id": 355,
+      "committee": "Technical Steering Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Participation in TSC meetings and decision making  \n\nContribute to Vision 2030 KPIs definitions "
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 337,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "During this reporting period, I actively participated in GMC community meetings and contributed to ongoing discussions related to community growth and marketing initiatives."
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 360,
+      "committee": "Open Source Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Maintainer Retainer interviews\nSecurity Officer interview\nParticipation in Tooling WG\nReviewing of Developer Advocates milestones\nCardano Summit Berlin participation and reporting\nAttendance to OSC weekly meetings and decision making"
+    }
+  },
+  {
+    "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4335,
+      "claim_id": 332,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "I took part in the meetings, including the extra meetings, I hosted a local event dedicated to project management and governance in web3 applications. I proceeded with the governance training related to the Cardano Africa Tech Summit "
+    }
+  },
+  {
+    "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 309,
+      "claim_id": 373,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Contributed to:\n- NCL scenario analysis, forecasting of Treasury levels under different NCL levels\n- Budget Process for 2026"
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 343,
+      "committee": "Product Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": " (Dec) — Active participation, written commentary, Miro board Agenda, talks on first research evals"
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 378,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "Attended all monthly meetings and helped draft NCL info action and gave suggestions to include 1000 ADA fee for budget proposals to reduce spam"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 384,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "January",
+      "reward_year": 2026,
+      "contribution_report": "As a member of the Budget Process Committee, my work has primarily focused on building and establishing the budget process for 2026, as well as shaping the NCL thinking process and framework."
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 361,
+      "committee": "Open Source Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Maintainer Retainer interviews and reviewing\nParticipation in Tooling WG, reviewing of projects\nSecurity Officer report\nAttendance to OSC weekly meetings and decision making"
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 338,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "During this reporting period, I actively participated in GMC community meetings and contributed to ongoing discussions related to community growth and marketing initiatives."
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 419,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "attended meetings, popularized the idea of governance incentives in CIVICS, kept building the idea of governance incentives framework, attended working groups"
+    }
+  },
+  {
+    "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1205,
+      "claim_id": 366,
+      "committee": "Technical Steering Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Participated in HFWG, Chain Partition Incident Working Group, and Parameter Committee Discussions.  Authored CIPs for NCL Parameter and Stake Pool Hot Credentials.  Contributed to CIP-0179 polls CIP and implementations as an option for Dijkstra-era CIP shortlist poll.  Delivered presentations proposing to lower minPoolCost to 75 and raise stakePoolTargetNum to 1000.\n"
+    }
+  },
+  {
+    "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4773,
+      "claim_id": 350,
+      "committee": "Technical Steering Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "CIP-50 discussions, Hard-fork scheduling, Governance actions discussions, feedback on product commitee KPIs, establish contact between Leandros and IO researchers , share Layer 2 working group info, discuss vulnerability disclosure with cardano-node, discuss constitution update investigation"
+    }
+  },
+  {
+    "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2704,
+      "claim_id": 399,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Attended weekly meetings"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 390,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "I have helped shape Intersect's internal policies regarding stipends and committee work. Furthermore, I have contributed to improving internal processes and the way committees function and report their activities. This includes enhancing various initiatives, proposing meaningful improvements, and keeping track of progress to drive the organization forward. This is continuous work with multiple moving activities. I tend to be present for every meeting.\n"
+    }
+  },
+  {
+    "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 309,
+      "claim_id": 374,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Contributed to:\n- NCL scenario analysis, forecasting of Treasury levels under different NCL levels\n- Budget Process for 2026"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 385,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "As a member of the Budget Process Committee, my work has primarily focused on building and establishing the budget process for 2026, as well as shaping the NCL thinking process and framework."
+    }
+  },
+  {
+    "address": "addr1qx4t8uw8xne0f545cjdu9c2uhtezchw5h8hhnzfvwky4s8retdxxx9z84wts7ywszpfyzzu2m0xsttgffytp0t45pjvsdy9qv4",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4335,
+      "claim_id": 333,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "I participated in 3 meetings but was off as I was one of the Hub Leads present in Nairobi for the Cardano Africa Tech Summit. "
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 379,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Attended all monthly meetings for the month, contributed to preliminary work drafting the 2026 budget process as well as advocated on X for dreps to vote for NCL info action "
+    }
+  },
+  {
+    "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3171,
+      "claim_id": 356,
+      "committee": "Technical Steering Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "Participation in TSC meetings and decision making  \n\nContribute to Vision 2030 KPIs definitions "
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 344,
+      "committee": "Product Committee",
+      "reward_month": "February",
+      "reward_year": 2026,
+      "contribution_report": "(Jan) — Cross-committee visibility, 2030 Vision Workshop, personal evaluation rubric developed"
+    }
+  },
+  {
+    "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 309,
+      "claim_id": 375,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Contributed to:\n- NCL scenario analysis, forecasting of Treasury levels under different NCL levels\n- Budget Process for 2026"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 386,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "As a member of the Budget Process Committee, my work has primarily focused on building and establishing the budget process for 2026, as well as shaping the ekklesia tool and framework for the tool. "
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 420,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Attended meetings, started rallying people outside civics for the governance incentives working group, started charter"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 391,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "I have helped shape Intersect's internal policies regarding stipends and committee work. Furthermore, I have contributed to improving internal processes and the way committees function and report their activities. This includes enhancing various initiatives, proposing meaningful improvements, and keeping track of progress to drive the organization forward. This is continuous work with multiple moving activities. I tend to be present for every meeting.\n"
+    }
+  },
+  {
+    "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1205,
+      "claim_id": 367,
+      "committee": "Technical Steering Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Participated in HFWG and Parameter Committee Discussions.  Discussed 2030 Vision/Strategy with Product Committee and opened a pull request against their repository to contribute my own ideas.  Continued development on CIP-179 implementation for Dijkstra-era CIP shortlist poll on GovTools, CGov, and CF voting tool.\n"
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 339,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "During this reporting period, I actively participated in GMC community meetings and contributed to ongoing discussions related to community growth and marketing initiatives."
+    }
+  },
+  {
+    "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3171,
+      "claim_id": 357,
+      "committee": "Technical Steering Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Participation in TSC meetings and decision making  \n\nContribute to Vision 2030 KPIs definitions "
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 345,
+      "committee": "Product Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "(Feb) — Leadership signals, agenda-driving, Meeting participation, Socializing on  Cardano Over Coffee"
+    }
+  },
+  {
+    "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2704,
+      "claim_id": 400,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Attended weekly meetings"
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 380,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Attended all monthly meetings and continued work with the committee drafting budget process info action. Defining how the 2026 budget process will look. Everything from submission form, to proposals fees etc. "
+    }
+  },
+  {
+    "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4773,
+      "claim_id": 351,
+      "committee": "Technical Steering Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Updates on Leios development, Hard-fork schedule discussions, raise and discuss discord accessibility issues"
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 362,
+      "committee": "Open Source Committee",
+      "reward_month": "March",
+      "reward_year": 2026,
+      "contribution_report": "Reviewing of projects applying to Tooling Sustainability Program\nReviewing of Maintainer Retainer Program - Round 1\nParticipation in Developer Experience Innovation WG\nAttendance to OSC weekly meetings and decision making"
+    }
+  },
+  {
+    "address": "addr1qxdv695wd05609ztpecg2tcrt93vq6pj75exjgq9a3u5ym2mlkhe5f2k8jsn9cwpp8g6v0j2szyfahhx2nm2putzyldqqtfxw0",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 249,
+      "claim_id": 352,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "I have contributed to CAP WG and governance education WG.\nI have also attended all meetings incl preparations for CIVICS."
+    }
+  },
+  {
+    "address": "addr1qym2cy782fsffcq0unw62f6t6w3qgu4lndfd5my4uy2s2gdyvfzzqz07edkucjg2ksr0t52ln39lkpwaljgv779u57ast2pfez",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 94,
+      "claim_id": 330,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Collaborated across the MCC meeting to align with the GMC roadmap and avoid overlaps between the committees. Promoting Intersect Committee Elections 2026 to the Indian web3 and crypto communities. "
+    }
+  },
+  {
+    "address": "addr1q9u6ru0ydd8c908cl3eywgyk254qs23j7np8su67rq5e9h2rr8q82nhkrz9tmld6ve88u49u7agemnzrqsqtl4e2fqlsxhtat6",
+    "lovelace_amount": 0,
+    "metadata": {
+      "user_id": 475,
+      "claim_id": 334,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Active participation in all meeting - contributed to developing adoption framework for Cardano. Gave feedback to the strategic pillars for 2026 activities. "
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 340,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "During this reporting period, I actively participated in GMC community meetings and contributed to ongoing discussions related to community growth and marketing initiatives."
+    }
+  },
+  {
+    "address": "addr1qx3nmmfgs3n2gj408vnh2frjpnj02me7q32ljrfln4cjrs0uc4cfa0u0qtc9trlafnzgzfz04rp9w27n87sy5zkj298s3kksl2",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 198,
+      "claim_id": 341,
+      "committee": "Membership & Community Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "I will continue to contribute towards the MCC budget proposals focused on the community hubs and membership benefits documentation. I have also agreed to host mcc open office hours x spaces focused on the committee election as a platform for new candidates to highlight them selves before the voting starts."
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 346,
+      "committee": "Product Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "(March) Full mtg attendance, miro board agenda, 2030 strategy, Ecosystem funding WG, "
+    }
+  },
+  {
+    "address": "addr1q9mcsgapzarg96n7cdt0m0l04jcr8lsypdh4jupcfg7u0tsuczyl9mps9cj5afffaudy6qk9hr7lts46xtqyrf77napspteyvp",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 136,
+      "claim_id": 347,
+      "committee": "Membership & Community Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "10 hours working on Intersect MCC 2026 Budget Proposal as well as the 2024-2025 Community Hubs Port-Mortem Report. Attending weekly internal MCC meetings as well as the biweekly public meetings."
+    }
+  },
+  {
+    "address": "addr1q8vd7lvhd2sf9pys7p3wdcpdtqnpyrs0nz7lc2t6lny7ptsn3dddzfmkf7zn5kgelsgrg8xp3atxvagy2sprhdtv98uqzrnykk",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3171,
+      "claim_id": 358,
+      "committee": "Technical Steering Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Participation in TSC meetings and decision making  \n\nContribute to Vision 2030 KPIs definitions "
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 363,
+      "committee": "Open Source Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Reviewing of projects applying to Tooling Sustainability Program\nMaintainer Retainer interviews\nParticipation in Developer Experience Innovation WG\nParticipation in Cardano Builder Fest Buenos Aires, reporting\nAttendance to OSC weekly meetings and decision making"
+    }
+  },
+  {
+    "address": "addr1qyyuf3ua0e2sjas9egqjqvza6ut3jyn0kxr3e5l2upeuasgsfm9826q0pkhau2kf6nuj0065dgejfen0kk6t7cg0d9yqedh07y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1205,
+      "claim_id": 368,
+      "committee": "Technical Steering Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Participated in HFWG and Parameter Committee Discussions.   Continued development on CIP-179 implementation for Dijkstra-era CIP shortlist poll on GovTools, CGov, and CF voting tool.  Drafted PCP-006 proposing to lower minPoolCost to 75.\n"
+    }
+  },
+  {
+    "address": "addr1qx8xn0zwc6vrqm0lw7daql5x7x8tlale6tz005g2hhfn85av635z0fphdhmxujen259r4tr6veseej3whlxmkz8xe97qjc7y7y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3560,
+      "claim_id": 369,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Growth and Marketing Committee member"
+    }
+  },
+  {
+    "address": "addr1qxsxg746tsgfxw98gmcxsev37jfytxr809seeq6t87wdw7md78v5yq4uafh4lcx94pz45p47quhdttl93jtxa4n33sts57k48k",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 4773,
+      "claim_id": 370,
+      "committee": "Technical Steering Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Report on Leios progress and mostly Hard-fork discussions (so far)"
+    }
+  },
+  {
+    "address": "addr1qxn6q4pj34utsalhs6ppjfl9fcp5h4rmvw6z594nuf6c8leymj34m5yg4hfcqcdqz9emf2avarj09h2atx0an6vvjjasw0004u",
+    "lovelace_amount": 0,
+    "metadata": {
+      "user_id": 578,
+      "claim_id": 371,
+      "committee": "Membership & Community Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Meeting, xspace and others ideas for the community "
+    }
+  },
+  {
+    "address": "addr1qy4xmqqvsx823906led0m9gerpfkyhgctsj8nysm3lhwx55s87338qzeuap40ddjfglelmsp8hymdwt0ly5eq4fqu5uqrdqz5v",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 309,
+      "claim_id": 376,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Contributed to:\n- NCL scenario analysis, forecasting of Treasury levels under different NCL levels\n- Budget Process for 2026"
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 381,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Attended all monthly meetings and began helping the committee draft its 2026 budget committee budget ask. Began with drafting of 2026 work packages for the committee. "
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 392,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "I have helped shape Intersect's internal policies regarding stipends and committee work. Furthermore, I have contributed to improving internal processes and the way committees function and report their activities. This includes enhancing various initiatives, proposing meaningful improvements, and keeping track of progress to drive the organization forward. This is continuous work with multiple moving activities. I tend to be present for every meeting.\n"
+    }
+  },
+  {
+    "address": "addr1qxclm46gcmq2yt5nhfwvlylcmjsmwz52cx6yupwj5memvhmvnpwxx8c085qnvw7vsxtvx2q0a37pdnzk0y7y20nglu6sryajch",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2023,
+      "claim_id": 387,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "As a member of the Budget Process Committee, my work has primarily focused on building and establishing the budget process for 2026, as well as shaping the ekklesia tool and framework for the tool.  I also presented the process in the workshop in front of Japanese DRep community in Tokyo"
+    }
+  },
+  {
+    "address": "addr1q969pqdex204usts3dypdq592whk46hfe44s9k3n04h2hxe0tmwel0mj55vcggeqymqzz0h6fgvp0rdakhctl0s0nz7q7zurdn",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3164,
+      "claim_id": 393,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "1. CGEWG last push for the repository\n2. Campaigning myself for ISC and Civic Committee election\n3. Transferred knowledge CC election to Asia Africa Cardano Coalition\n4. Contribute to Civic Committee meeting\n5. applying myself to be Grant WP lead for Civic Budget Proposal on last Thursday 23th.\n6. Applying myself to be community workshop spokeperson for Asia region workshop\n7.Collaborate myself with Seomon for the community workshop on Civic Budget proposal."
+    }
+  },
+  {
+    "address": "addr1v83asw72qe5epvvwj8gg22cc5en4568gk2vephh8vxf22zsmv5kc2",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2528,
+      "claim_id": 394,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Contributed to the finalisation of the Civics Committee budget for the 2026 treasury withdrawal process. \nAlso assisted in the setting up of the Governance Incentives working group."
+    }
+  },
+  {
+    "address": "addr1qylctn9a4h46ww7jsqah533s7ldrlrzn7mrhl5rdptrumn6ke58azzzukvzyymfk9ank0hx59vmg3e6htuuaqalar9qqyj7849",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 3166,
+      "claim_id": 395,
+      "committee": "Membership & Community Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Contributions in April continued the development of a book on Cardano Governance in Indonesian. These notes were quite helpful in explaining many aspects of governance from an Indonesian perspective. Attending meetings, completing the MCC budget at the beginning of the month, and having the task of reviewing the MCC responsibility documents."
+    }
+  },
+  {
+    "address": "addr1q9csfkv940e0juf3m8lftjr6s4eapx5vlkf05mrfag0y0csvlktu7n06027e588vf2mxt3uajup7r6kwvc45k3wgayqqvgd39y",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 2704,
+      "claim_id": 401,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Attended weekly meetings"
+    }
+  },
+  {
+    "address": "addr1qygf8g0sd8v8tqha03nemmagj2s78sys4zdhun38c9a2p8mq7zcmh7er8kcgw6xfhdawk04hrtkt4x894dd3947x3xtqd9hlxh",
+    "lovelace_amount": 0,
+    "metadata": {
+      "user_id": 242,
+      "claim_id": 406,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Attended all five Intersect Steering Committee meetings (March 2, 9, 16, 23, 30) as a voting Community Member. Evaluated draft committee budgets, the 2026 budget process framework, and committee reward updates. Reviewed the Committee Chair & Vice-Chair Election Policy, alongside committee roles and responsibilities. Contributed to the ISC Quarterly Review, governance initiative calendar planning, and preparations for upcoming committee elections."
+    }
+  },
+  {
+    "address": "addr1q8n540d66lsl8ej8z0lg3r86u8ftwxmf3ykm2dzrsskwwrs30getrwahwaxgquvvt7gjvwwmu2vdqlp8stg3tzzl49pqyhvm74",
+    "lovelace_amount": 0,
+    "metadata": {
+      "user_id": 5927,
+      "claim_id": 413,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Budget review"
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 421,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "April",
+      "reward_year": 2026,
+      "contribution_report": "Finished working charter, establishing WG meetings, connecting with other governance incentives interested individuals and groups, established WG channel in discord and built an initial map of initiatives important sources."
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 411,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Working voting member"
+    }
+  },
+  {
+    "address": "addr1qxzcr6xfgu4u5dwhruqml9yj0v9j8l2vl3qcwdla4famv3vlex2jvsm78g26gu6sjg7t95a2y5s6whydc2vh73k7arws7svqpg",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1750,
+      "claim_id": 412,
+      "committee": "Product Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Working voting member"
+    }
+  },
+  {
+    "address": "addr1qyxgdj4vm66avhh2lphpccltw7n5tz08txs87pyk6zefx97rgyjzmd9pguyjqxj6chekuwxrekgjxzq9k0aeppj4vhtqx2rq34",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 1550,
+      "claim_id": 422,
+      "committee": "Cardano Civics Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "attended meetings, learning even more about other initiatives, built further collaboration, governance working group charter finally got ratified!\\o/ created governance incentives mapping document."
+    }
+  },
+  {
+    "address": "addr1q8n540d66lsl8ej8z0lg3r86u8ftwxmf3ykm2dzrsskwwrs30getrwahwaxgquvvt7gjvwwmu2vdqlp8stg3tzzl49pqyhvm74",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 5927,
+      "claim_id": 414,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Budget review"
+    }
+  },
+  {
+    "address": "addr1qxn6q4pj34utsalhs6ppjfl9fcp5h4rmvw6z594nuf6c8leymj34m5yg4hfcqcdqz9emf2avarj09h2atx0an6vvjjasw0004u",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 578,
+      "claim_id": 408,
+      "committee": "Membership & Community Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "i contributedin the document named Intersect membership value and  offering\na part of this , i  was present in 90% of beweekly meet"
+    }
+  },
+  {
+    "address": "addr1qygf8g0sd8v8tqha03nemmagj2s78sys4zdhun38c9a2p8mq7zcmh7er8kcgw6xfhdawk04hrtkt4x894dd3947x3xtqd9hlxh",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 242,
+      "claim_id": 407,
+      "committee": "Intersect Steering Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Attended all three Intersect Steering Committee meetings (April 13, 20, 27) as a voting Community Member. Engaged in strategic discussions regarding protocol parameter updates and the comprehensive Intersect budget proposal. Contributed to defining communication accountability, code of conduct processes, and evaluating potential updates to ISC voting seats. Oversaw ongoing committee elections and cross-committee alignments."
+    }
+  },
+  {
+    "address": "addr1q9mcsgapzarg96n7cdt0m0l04jcr8lsypdh4jupcfg7u0tsuczyl9mps9cj5afffaudy6qk9hr7lts46xtqyrf77napspteyvp",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 136,
+      "claim_id": 405,
+      "committee": "Membership & Community Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "meetings and work for membership benefits document & budget proposal"
+    }
+  },
+  {
+    "address": "addr1qyevgjyszgryta92tj5phnvhnkc45t3dd08r2en6tdjrcnte69ykzwnem33zdglnk3rm6n2pl4xw6y0ackyke0vx0n7qkqj9js",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 298,
+      "claim_id": 404,
+      "committee": "Open Source Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "- Proposing a bi-weekly check-in during the regular OSC meetings from Mike Hornan, Intersect Security Incident Consultant.\n- Active participation in the weekly meetings of the Cardano Developer Experience Innovation WG\n- Evaluation of projects applying to the Tooling Sustainability Program. Elaboration of report that facilitated the decision-making of the OSC members.\n- Working on OSC budget proposal. Presentation in the Intersect Town Hall\n- Facilitation OSC meeting\n- Attending of OSC meeting"
+    }
+  },
+  {
+    "address": "addr1qyazppj7y0d8v8sp7ne4ngu8axkd8fq88zwaujn24fq85mnv52vtzx8s3g663v8qtt8g0ru27j7j6udsfkm7jzf5ypjs5tq7tc",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 673,
+      "claim_id": 403,
+      "committee": "Cardano Budget Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Finished the budget committee 2026 budget with associated workpackages and say ended all 8 monthly meetings "
+    }
+  },
+  {
+    "address": "addr1q9u6ru0ydd8c908cl3eywgyk254qs23j7np8su67rq5e9h2rr8q82nhkrz9tmld6ve88u49u7agemnzrqsqtl4e2fqlsxhtat6",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 475,
+      "claim_id": 402,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Participated in all committee meetings - continue to develop the BD framework for Cardano promoting vertical approach and BD networks to facilitate deal making. "
+    }
+  },
+  {
+    "address": "addr1qy6s5texuq3t5t7mtfxheyuzkwanqmg6m4ly3w62ascluhy96l7fy78wve0djky72feahtvchee66ct2tx6n783yqyuqhw9xh0",
+    "lovelace_amount": 499000000,
+    "metadata": {
+      "user_id": 7100,
+      "claim_id": 423,
+      "committee": "Technical Steering Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "TSC Meetings on 4/29, 5/6, 5/13\nBudget review and plutus paremters review"
+    }
+  },
+  {
+    "address": "addr1qysenuaxd49u74l8trz59mff7yxxlgwhpu8gj76w9pcpp038adkn5awy42fe9aq9yu2kjvuxqggxu220x7ktnscqyv0seaugz9",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 445,
+      "claim_id": 409,
+      "committee": "Growth & Marketing Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "Discuss the budget proposal also getting ready for the election and excited for the new members"
+    }
+  },
+  {
+    "address": "addr1qx3nmmfgs3n2gj408vnh2frjpnj02me7q32ljrfln4cjrs0uc4cfa0u0qtc9trlafnzgzfz04rp9w27n87sy5zkj298s3kksl2",
+    "lovelace_amount": 500000000,
+    "metadata": {
+      "user_id": 198,
+      "claim_id": 410,
+      "committee": "Membership & Community Committee",
+      "reward_month": "May",
+      "reward_year": 2026,
+      "contribution_report": "I contributed towards the MCC budget proposal, focusing on membership benefits and community hubs as well as hosting the MCC open office hours X spaces for the month of April."
+    }
+  }
+]
